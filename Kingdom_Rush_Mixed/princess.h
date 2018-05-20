@@ -8,12 +8,13 @@ class Princess : public Live_player
 {
 public:
     enum Command{Lstand,Rstand,Longattack,Move};
-    Princess(int xpos,int ypos);
+    Princess(int xpos, int ypos);
     Princess(const QPoint & obj_location);
     void react(Command cmd);
     void draw(QPainter &p);
     bool isLeft(void)const;
-    bool isStanding(void)const {return _condition<2;}
+    bool isStanding(void)const {return _condition<l_longattack1;}
+    bool isMoving(void)const {return _condition==rmove1||_condition==lmove1;}
     bool isRight(void)const {return !isLeft();}
 private:
     enum Condition{lstand1,rstand1,l_longattack1,l_longattack2,
