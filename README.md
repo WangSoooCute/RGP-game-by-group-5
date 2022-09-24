@@ -46,6 +46,6 @@
 
 ** 文件说明
 
-_**Project_FinalProject**_文件夹里是整个项目的最终代码版本（包括所有的所需图片都在image.zip这个文件里）。
+**_Project_FinalProject_**文件夹里是整个项目的最终代码版本（包括所有的所需图片都在image.zip这个文件里）。
 
-项目代码需在_**Qt Creator**_中运行。
+项目代码需在**_Qt Creator_**中运行。
