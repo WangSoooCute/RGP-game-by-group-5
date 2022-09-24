@@ -1,0 +1,968 @@
+<RCC>
+    <qresource prefix="/background">
+        <file>image/map/1.png</file>
+        <file>image/map/2.png</file>
+        <file>image/map/3.png</file>
+        <file>image/map/home.jpg</file>
+        <file>image/map/start.bmp</file>
+        <file>image/map/ldoor.png</file>
+        <file>image/map/rdoor.png</file>
+        <file>image/map/start.png</file>
+        <file>image/map/black1.png</file>
+        <file>image/map/black2.png</file>
+        <file>image/map/black3.png</file>
+        <file>image/map/black4.png</file>
+        <file>image/map/black5.png</file>
+        <file>image/map/black6.png</file>
+        <file>image/map/black7.png</file>
+        <file>image/map/black8.png</file>
+    </qresource>
+    <qresource prefix="/princess">
+        <file>image/princess/l_longattack1.png</file>
+        <file>image/princess/l_longattack2.png</file>
+        <file>image/princess/l_longattack3.png</file>
+        <file>image/princess/l_longattack4.png</file>
+        <file>image/princess/r_longattack1.png</file>
+        <file>image/princess/r_longattack2.png</file>
+        <file>image/princess/r_longattack3.png</file>
+        <file>image/princess/r_longattack4.png</file>
+        <file>image/princess/lstand1.png</file>
+        <file>image/princess/rstand1.png</file>
+        <file>image/princess/lmove1.png</file>
+        <file>image/princess/rmove1.png</file>
+        <file>image/princess/profile.png</file>
+        <file>image/princess/appear1.png</file>
+        <file>image/princess/appear2.png</file>
+        <file>image/princess/appear3.png</file>
+        <file>image/princess/appear4.png</file>
+        <file>image/princess/appear5.png</file>
+        <file>image/princess/death1.png</file>
+        <file>image/princess/death2.png</file>
+        <file>image/princess/death3.png</file>
+        <file>image/princess/death4.png</file>
+        <file>image/princess/death5.png</file>
+        <file>image/princess/death6.png</file>
+    </qresource>
+    <qresource prefix="/enemy_monster">
+        <file>image/enemy_monster/l_attack (1).png</file>
+        <file>image/enemy_monster/l_attack (2).png</file>
+        <file>image/enemy_monster/l_attack (3).png</file>
+        <file>image/enemy_monster/l_attack (4).png</file>
+        <file>image/enemy_monster/l_walk (1).png</file>
+        <file>image/enemy_monster/l_walk (2).png</file>
+        <file>image/enemy_monster/l_walk (3).png</file>
+        <file>image/enemy_monster/l_walk (4).png</file>
+        <file>image/enemy_monster/l_walk (5).png</file>
+        <file>image/enemy_monster/l_walk (6).png</file>
+        <file>image/enemy_monster/l_walk (7).png</file>
+        <file>image/enemy_monster/l_walk (8).png</file>
+        <file>image/enemy_monster/l_walk (9).png</file>
+        <file>image/enemy_monster/l_walk (10).png</file>
+        <file>image/enemy_monster/l_walk (11).png</file>
+        <file>image/enemy_monster/l_walk (12).png</file>
+        <file>image/enemy_monster/r_attack1.png</file>
+        <file>image/enemy_monster/r_attack2.png</file>
+        <file>image/enemy_monster/r_attack3.png</file>
+        <file>image/enemy_monster/r_attack4.png</file>
+        <file>image/enemy_monster/death (1).png</file>
+        <file>image/enemy_monster/death (2).png</file>
+        <file>image/enemy_monster/death (3).png</file>
+        <file>image/enemy_monster/death (4).png</file>
+        <file>image/enemy_monster/death (5).png</file>
+        <file>image/enemy_monster/death (6).png</file>
+        <file>image/enemy_monster/death (7).png</file>
+        <file>image/enemy_monster/l_attack5_1.png</file>
+        <file>image/enemy_monster/l_attack5_2.png</file>
+        <file>image/enemy_monster/l_attack5_3.png</file>
+        <file>image/enemy_monster/l_attack6_1.png</file>
+        <file>image/enemy_monster/l_attack6_2.png</file>
+        <file>image/enemy_monster/l_attack6_3.png</file>
+        <file>image/enemy_monster/r_attack5_1.png</file>
+        <file>image/enemy_monster/r_attack5_2.png</file>
+        <file>image/enemy_monster/r_attack5_3.png</file>
+        <file>image/enemy_monster/r_attack6_1.png</file>
+        <file>image/enemy_monster/r_attack6_2.png</file>
+        <file>image/enemy_monster/r_attack6_3.png</file>
+    </qresource>
+    <qresource prefix="/others">
+        <file>image/others/iceball.png</file>
+        <file>image/others/start1.png</file>
+        <file>image/others/start2.png</file>
+        <file>image/others/start3.png</file>
+        <file>image/others/arrow/0_arrow_up.png</file>
+        <file>image/others/arrow/1_arrow_right_up.png</file>
+        <file>image/others/arrow/2_arrow_right.png</file>
+        <file>image/others/arrow/3_arrow_right_down.png</file>
+        <file>image/others/arrow/4_arrow_down.png</file>
+        <file>image/others/arrow/5_arrow_left_down.png</file>
+        <file>image/others/arrow/6_arrow_left.png</file>
+        <file>image/others/arrow/7_arrow_left_up.png</file>
+        <file>image/others/magic_area.png</file>
+        <file>image/others/missile/BOOM (1).png</file>
+        <file>image/others/missile/BOOM (2).png</file>
+        <file>image/others/missile/BOOM (3).png</file>
+        <file>image/others/missile/BOOM (4).png</file>
+        <file>image/others/missile/BOOM (5).png</file>
+        <file>image/others/missile/BOOM (6).png</file>
+        <file>image/others/missile/BOOM (7).png</file>
+        <file>image/others/missile/BOOM (8).png</file>
+        <file>image/others/missile/BOOM (9).png</file>
+        <file>image/others/missile/l_fly1.png</file>
+        <file>image/others/missile/l_fly2.png</file>
+        <file>image/others/missile/r_fly1.png</file>
+        <file>image/others/missile/r_fly2.png</file>
+        <file>image/others/missile/u_fly1.png</file>
+        <file>image/others/missile/u_fly2.png</file>
+        <file>image/others/LOSE.png</file>
+        <file>image/others/victory.png</file>
+        <file>image/others/back1.png</file>
+        <file>image/others/back2.png</file>
+        <file>image/others/back3.png</file>
+        <file>image/others/pause1.png</file>
+        <file>image/others/pause2.png</file>
+        <file>image/others/pause3.png</file>
+        <file>image/others/bag.png</file>
+        <file>image/others/bagfloat.png</file>
+        <file>image/others/bagnormal.png</file>
+        <file>image/others/bagpress.png</file>
+        <file>image/others/firecow_fireball2.png</file>
+        <file>image/others/firewizard_fireball.png</file>
+        <file>image/others/pigsoldier_fireball3.png</file>
+        <file>image/others/newGame1.png</file>
+        <file>image/others/newGame2.png</file>
+        <file>image/others/greenstone.png</file>
+        <file>image/others/bullet.png</file>
+        <file>image/others/icecone/icecone_1.png</file>
+        <file>image/others/icecone/icecone_2.png</file>
+        <file>image/others/icecone/icecone_3.png</file>
+        <file>image/others/icecone/icecone_4.png</file>
+        <file>image/others/icecone/icecone_5.png</file>
+        <file>image/others/icecone/icecone_6.png</file>
+        <file>image/others/icecone/icecone_7.png</file>
+        <file>image/others/icecone/icecone_8.png</file>
+        <file>image/others/icecone/icecone_9.png</file>
+        <file>image/others/icecone/icecone_10.png</file>
+        <file>image/others/icecone/icecone_11.png</file>
+        <file>image/others/icecone/icecone_12.png</file>
+        <file>image/others/icecone/icecone_13.png</file>
+        <file>image/others/icecone/icecone_14.png</file>
+        <file>image/others/icecone/icecone_15.png</file>
+        <file>image/others/icecone/icecone_16.png</file>
+        <file>image/others/icecone/icecone_17.png</file>
+        <file>image/others/icecone/icecone_18.png</file>
+        <file>image/others/icecone/icecone_19.png</file>
+        <file>image/others/icecone/icecone_20.png</file>
+        <file>image/others/icecone/icecone_21.png</file>
+        <file>image/others/icecone/icecone_22.png</file>
+        <file>image/others/icecone/icecone_23.png</file>
+        <file>image/others/icecone/icecone_24.png</file>
+        <file>image/others/icecone/icecone_25.png</file>
+        <file>image/others/icecone/icecone_26.png</file>
+        <file>image/others/icecone/icecone_27.png</file>
+        <file>image/others/icecone/icecone_28.png</file>
+        <file>image/others/icecone/icecone_29.png</file>
+        <file>image/others/icecone/icecone_30.png</file>
+        <file>image/others/icecone/icecone_31.png</file>
+        <file>image/others/icecone/icecone_32.png</file>
+        <file>image/others/icefrozen/icefrozen_1.png</file>
+        <file>image/others/icefrozen/icefrozen_2.png</file>
+        <file>image/others/icefrozen/icefrozen_3.png</file>
+        <file>image/others/icefrozen/icefrozen_4.png</file>
+        <file>image/others/icefrozen/icefrozen_5.png</file>
+        <file>image/others/icefrozen/icefrozen_6.png</file>
+        <file>image/others/icefrozen/icefrozen_7.png</file>
+        <file>image/others/icefrozen/icefrozen_8.png</file>
+        <file>image/others/icefrozen/icefrozen_9.png</file>
+        <file>image/others/icefrozen/icefrozen_10.png</file>
+        <file>image/others/icefrozen/icefrozen_11.png</file>
+        <file>image/others/icefrozen/icefrozen_12.png</file>
+        <file>image/others/icefrozen/icefrozen_13.png</file>
+        <file>image/others/icefrozen/icefrozen_14.png</file>
+        <file>image/others/icefrozen/icefrozen_15.png</file>
+        <file>image/others/icefrozen/icefrozen_16.png</file>
+        <file>image/others/icefrozen/icefrozen_17.png</file>
+        <file>image/others/icefrozen/icefrozen_18.png</file>
+        <file>image/others/icefrozen/icefrozen_19.png</file>
+        <file>image/others/icefrozen/icefrozen_20.png</file>
+        <file>image/others/icefrozen/icefrozen_21.png</file>
+        <file>image/others/icefrozen/icefrozen_22.png</file>
+        <file>image/others/icefrozen/icefrozen_23.png</file>
+        <file>image/others/icefrozen/icefrozen_24.png</file>
+        <file>image/others/icefrozen/icefrozen_25.png</file>
+        <file>image/others/icefrozen/icefrozen_26.png</file>
+        <file>image/others/lightning/lightning_1.png</file>
+        <file>image/others/lightning/lightning_2.png</file>
+        <file>image/others/lightning/lightning_3.png</file>
+        <file>image/others/lightning/lightning_4.png</file>
+        <file>image/others/lightning/lightning_5.png</file>
+        <file>image/others/lightning/lightning_6.png</file>
+        <file>image/others/lightning/lightning_7.png</file>
+        <file>image/others/lightning/lightning_8.png</file>
+        <file>image/others/lightning/lightning_9.png</file>
+        <file>image/others/lightning/lightning_10.png</file>
+        <file>image/others/logo.png</file>
+    </qresource>
+    <qresource prefix="/enemy_wolf">
+        <file>image/enemy_wolf/wolf_dying_1.png</file>
+        <file>image/enemy_wolf/wolf_dying_2.png</file>
+        <file>image/enemy_wolf/wolf_dying_3.png</file>
+        <file>image/enemy_wolf/wolf_dying_4.png</file>
+        <file>image/enemy_wolf/wolf_dying_5.png</file>
+        <file>image/enemy_wolf/wolf_dying_6.png</file>
+        <file>image/enemy_wolf/wolf_dying_7.png</file>
+        <file>image/enemy_wolf/wolf_dying_8.png</file>
+        <file>image/enemy_wolf/wolf_lrun_1.png</file>
+        <file>image/enemy_wolf/wolf_lrun_2.png</file>
+        <file>image/enemy_wolf/wolf_lrun_3.png</file>
+        <file>image/enemy_wolf/wolf_lrun_4.png</file>
+        <file>image/enemy_wolf/wolf_lrun_5.png</file>
+        <file>image/enemy_wolf/wolf_lrun_6.png</file>
+        <file>image/enemy_wolf/wolf_lrun_7.png</file>
+        <file>image/enemy_wolf/wolf_lrun_8.png</file>
+        <file>image/enemy_wolf/wolf_rrun_1.png</file>
+        <file>image/enemy_wolf/wolf_rrun_2.png</file>
+        <file>image/enemy_wolf/wolf_rrun_3.png</file>
+        <file>image/enemy_wolf/wolf_rrun_4.png</file>
+        <file>image/enemy_wolf/wolf_rrun_5.png</file>
+        <file>image/enemy_wolf/wolf_rrun_6.png</file>
+        <file>image/enemy_wolf/wolf_rrun_7.png</file>
+        <file>image/enemy_wolf/wolf_rrun_8.png</file>
+    </qresource>
+    <qresource prefix="/guard/archer">
+        <file>image/guard_archer/archer_dying_/archer_dying_1.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_2.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_3.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_4.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_5.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_6.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_7.png</file>
+        <file>image/guard_archer/archer_dying_/archer_dying_8.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_1.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_2.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_3.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_4.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_5.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_6.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_7.png</file>
+        <file>image/guard_archer/archer_lattack_/archer_lattack_8.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_1.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_2.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_3.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_4.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_5.png</file>
+        <file>image/guard_archer/archer_lwalk_/archer_lwalk_6.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_1.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_2.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_3.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_4.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_5.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_6.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_7.png</file>
+        <file>image/guard_archer/archer_rattack_/archer_rattack_8.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_1.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_2.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_3.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_4.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_5.png</file>
+        <file>image/guard_archer/archer_rwalk_/archer_rwalk_6.png</file>
+    </qresource>
+    <qresource prefix="/enemy_firewolf">
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_1.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_2.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_3.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_4.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_5.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_6.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_7.png</file>
+        <file>image/enemy_firewolf/firewolf_dying_/firewolf_dying_8.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_1.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_2.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_3.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_4.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_5.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_6.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_7.png</file>
+        <file>image/enemy_firewolf/firewolf_lrun_/firewolf_lrun_8.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_1.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_2.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_3.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_4.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_5.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_6.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_7.png</file>
+        <file>image/enemy_firewolf/firewolf_rrun_/firewolf_rrun_8.png</file>
+    </qresource>
+    <qresource prefix="/enermy_boss_a">
+        <file>image/enermy_boss_a/al_attack (1).png</file>
+        <file>image/enermy_boss_a/al_attack (2).png</file>
+        <file>image/enermy_boss_a/al_attack (3).png</file>
+        <file>image/enermy_boss_a/al_attack (4).png</file>
+        <file>image/enermy_boss_a/al_attack (5).png</file>
+        <file>image/enermy_boss_a/al_attack (6).png</file>
+        <file>image/enermy_boss_a/al_attack (7).png</file>
+        <file>image/enermy_boss_a/al_attack (8).png</file>
+        <file>image/enermy_boss_a/al_attack (9).png</file>
+        <file>image/enermy_boss_a/al_attack (10).png</file>
+        <file>image/enermy_boss_a/al_attack (11).png</file>
+        <file>image/enermy_boss_a/al_attack (12).png</file>
+        <file>image/enermy_boss_a/al_attack (13).png</file>
+        <file>image/enermy_boss_a/al_attack (14).png</file>
+        <file>image/enermy_boss_a/al_attack (15).png</file>
+        <file>image/enermy_boss_a/al_attack (16).png</file>
+        <file>image/enermy_boss_a/al_attack (17).png</file>
+        <file>image/enermy_boss_a/al_attack (18).png</file>
+        <file>image/enermy_boss_a/al_attack (19).png</file>
+        <file>image/enermy_boss_a/al_attack (20).png</file>
+        <file>image/enermy_boss_a/al_attack (21).png</file>
+        <file>image/enermy_boss_a/al_attack (22).png</file>
+        <file>image/enermy_boss_a/al_attack (23).png</file>
+        <file>image/enermy_boss_a/al_attack (24).png</file>
+        <file>image/enermy_boss_a/al_attack (25).png</file>
+        <file>image/enermy_boss_a/al_attack (26).png</file>
+        <file>image/enermy_boss_a/al_attack (27).png</file>
+        <file>image/enermy_boss_a/al_attack (28).png</file>
+        <file>image/enermy_boss_a/al_attack (29).png</file>
+        <file>image/enermy_boss_a/al_attack (30).png</file>
+        <file>image/enermy_boss_a/al_attack (31).png</file>
+        <file>image/enermy_boss_a/al_attack (32).png</file>
+        <file>image/enermy_boss_a/al_attack (33).png</file>
+        <file>image/enermy_boss_a/al_attack (34).png</file>
+        <file>image/enermy_boss_a/al_death (1).png</file>
+        <file>image/enermy_boss_a/al_death (2).png</file>
+        <file>image/enermy_boss_a/al_death (3).png</file>
+        <file>image/enermy_boss_a/al_death (4).png</file>
+        <file>image/enermy_boss_a/al_death (5).png</file>
+        <file>image/enermy_boss_a/al_death (6).png</file>
+        <file>image/enermy_boss_a/al_death (7).png</file>
+        <file>image/enermy_boss_a/al_death (8).png</file>
+        <file>image/enermy_boss_a/al_death (9).png</file>
+        <file>image/enermy_boss_a/al_death (10).png</file>
+        <file>image/enermy_boss_a/al_death (11).png</file>
+        <file>image/enermy_boss_a/al_death (12).png</file>
+        <file>image/enermy_boss_a/al_walk (1).png</file>
+        <file>image/enermy_boss_a/al_walk (2).png</file>
+        <file>image/enermy_boss_a/al_walk (3).png</file>
+        <file>image/enermy_boss_a/al_walk (4).png</file>
+        <file>image/enermy_boss_a/al_walk (5).png</file>
+        <file>image/enermy_boss_a/al_walk (6).png</file>
+        <file>image/enermy_boss_a/al_walk (7).png</file>
+        <file>image/enermy_boss_a/al_walk (8).png</file>
+        <file>image/enermy_boss_a/al_walk (9).png</file>
+        <file>image/enermy_boss_a/al_walk (10).png</file>
+        <file>image/enermy_boss_a/al_walk (11).png</file>
+        <file>image/enermy_boss_a/al_walk (12).png</file>
+        <file>image/enermy_boss_a/ar_attack (1).png</file>
+        <file>image/enermy_boss_a/ar_attack (2).png</file>
+        <file>image/enermy_boss_a/ar_attack (3).png</file>
+        <file>image/enermy_boss_a/ar_attack (4).png</file>
+        <file>image/enermy_boss_a/ar_attack (5).png</file>
+        <file>image/enermy_boss_a/ar_attack (6).png</file>
+        <file>image/enermy_boss_a/ar_attack (7).png</file>
+        <file>image/enermy_boss_a/ar_attack (8).png</file>
+        <file>image/enermy_boss_a/ar_attack (9).png</file>
+        <file>image/enermy_boss_a/ar_attack (10).png</file>
+        <file>image/enermy_boss_a/ar_attack (11).png</file>
+        <file>image/enermy_boss_a/ar_attack (12).png</file>
+        <file>image/enermy_boss_a/ar_attack (13).png</file>
+        <file>image/enermy_boss_a/ar_attack (14).png</file>
+        <file>image/enermy_boss_a/ar_attack (15).png</file>
+        <file>image/enermy_boss_a/ar_attack (16).png</file>
+        <file>image/enermy_boss_a/ar_attack (17).png</file>
+        <file>image/enermy_boss_a/ar_attack (18).png</file>
+        <file>image/enermy_boss_a/ar_attack (19).png</file>
+        <file>image/enermy_boss_a/ar_attack (20).png</file>
+        <file>image/enermy_boss_a/ar_attack (21).png</file>
+        <file>image/enermy_boss_a/ar_attack (22).png</file>
+        <file>image/enermy_boss_a/ar_attack (23).png</file>
+        <file>image/enermy_boss_a/ar_attack (24).png</file>
+        <file>image/enermy_boss_a/ar_attack (25).png</file>
+        <file>image/enermy_boss_a/ar_attack (26).png</file>
+        <file>image/enermy_boss_a/ar_attack (27).png</file>
+        <file>image/enermy_boss_a/ar_attack (28).png</file>
+        <file>image/enermy_boss_a/ar_attack (29).png</file>
+        <file>image/enermy_boss_a/ar_attack (30).png</file>
+        <file>image/enermy_boss_a/ar_attack (31).png</file>
+        <file>image/enermy_boss_a/ar_attack (32).png</file>
+        <file>image/enermy_boss_a/ar_attack (33).png</file>
+        <file>image/enermy_boss_a/ar_attack (34).png</file>
+    </qresource>
+    <qresource prefix="/enermy_boss_b">
+        <file>image/enermy_boss_b/bl_attack (1).png</file>
+        <file>image/enermy_boss_b/bl_attack (2).png</file>
+        <file>image/enermy_boss_b/bl_attack (3).png</file>
+        <file>image/enermy_boss_b/bl_attack (4).png</file>
+        <file>image/enermy_boss_b/bl_attack (5).png</file>
+        <file>image/enermy_boss_b/bl_attack (6).png</file>
+        <file>image/enermy_boss_b/bl_attack (7).png</file>
+        <file>image/enermy_boss_b/bl_attack (8).png</file>
+        <file>image/enermy_boss_b/bl_attack (9).png</file>
+        <file>image/enermy_boss_b/bl_attack (10).png</file>
+        <file>image/enermy_boss_b/bl_attack (11).png</file>
+        <file>image/enermy_boss_b/bl_attack (12).png</file>
+        <file>image/enermy_boss_b/bl_attack (13).png</file>
+        <file>image/enermy_boss_b/bl_attack (14).png</file>
+        <file>image/enermy_boss_b/bl_walk1.png</file>
+        <file>image/enermy_boss_b/bl_walk2.png</file>
+        <file>image/enermy_boss_b/bl_walk3.png</file>
+        <file>image/enermy_boss_b/bl_walk4.png</file>
+        <file>image/enermy_boss_b/bl_walk5.png</file>
+        <file>image/enermy_boss_b/bl_walk6.png</file>
+        <file>image/enermy_boss_b/bl_walk7.png</file>
+        <file>image/enermy_boss_b/bl_walk8.png</file>
+        <file>image/enermy_boss_b/bl_walk9.png</file>
+        <file>image/enermy_boss_b/bl_walk10.png</file>
+        <file>image/enermy_boss_b/bl_walk11.png</file>
+        <file>image/enermy_boss_b/br_attack (1).png</file>
+        <file>image/enermy_boss_b/br_attack (2).png</file>
+        <file>image/enermy_boss_b/br_attack (3).png</file>
+        <file>image/enermy_boss_b/br_attack (4).png</file>
+        <file>image/enermy_boss_b/br_attack (5).png</file>
+        <file>image/enermy_boss_b/br_attack (6).png</file>
+        <file>image/enermy_boss_b/br_attack (7).png</file>
+        <file>image/enermy_boss_b/br_attack (8).png</file>
+        <file>image/enermy_boss_b/br_attack (9).png</file>
+        <file>image/enermy_boss_b/br_attack (10).png</file>
+        <file>image/enermy_boss_b/br_attack (11).png</file>
+        <file>image/enermy_boss_b/br_attack (12).png</file>
+        <file>image/enermy_boss_b/br_attack (13).png</file>
+        <file>image/enermy_boss_b/br_attack (14).png</file>
+        <file>image/enermy_boss_b/appear (1).png</file>
+        <file>image/enermy_boss_b/appear (2).png</file>
+        <file>image/enermy_boss_b/appear (3).png</file>
+        <file>image/enermy_boss_b/appear (4).png</file>
+        <file>image/enermy_boss_b/appear (5).png</file>
+        <file>image/enermy_boss_b/disappear (1).png</file>
+        <file>image/enermy_boss_b/disappear (2).png</file>
+        <file>image/enermy_boss_b/disappear (3).png</file>
+        <file>image/enermy_boss_b/disappear (4).png</file>
+        <file>image/enermy_boss_b/disappear (5).png</file>
+        <file>image/enermy_boss_b/l_stand.png</file>
+        <file>image/enermy_boss_b/r_death (1).png</file>
+        <file>image/enermy_boss_b/r_death (2).png</file>
+        <file>image/enermy_boss_b/r_death (3).png</file>
+        <file>image/enermy_boss_b/r_death (4).png</file>
+        <file>image/enermy_boss_b/r_death (5).png</file>
+        <file>image/enermy_boss_b/r_death (6).png</file>
+        <file>image/enermy_boss_b/r_death (7).png</file>
+        <file>image/enermy_boss_b/r_death (8).png</file>
+        <file>image/enermy_boss_b/r_death (9).png</file>
+        <file>image/enermy_boss_b/r_death (10).png</file>
+        <file>image/enermy_boss_b/r_stand.png</file>
+    </qresource>
+    <qresource prefix="/dialog">
+        <file>image/dialog/1.png</file>
+        <file>image/dialog/2.png</file>
+        <file>image/dialog/3.png</file>
+        <file>image/dialog/4.png</file>
+        <file>image/dialog/5.png</file>
+        <file>image/dialog/6.png</file>
+        <file>image/dialog/7.png</file>
+        <file>image/dialog/8.png</file>
+        <file>image/dialog/9.png</file>
+        <file>image/dialog/10.png</file>
+        <file>image/dialog/11.png</file>
+        <file>image/dialog/12.png</file>
+        <file>image/dialog/13.png</file>
+        <file>image/dialog/14.png</file>
+        <file>image/dialog/15.png</file>
+        <file>image/dialog/16.png</file>
+        <file>image/dialog/17.png</file>
+        <file>image/dialog/18.png</file>
+    </qresource>
+    <qresource prefix="/talent">
+        <file>image/talent/blue.png</file>
+        <file>image/talent/bluedark.png</file>
+        <file>image/talent/hail.png</file>
+        <file>image/talent/red.png</file>
+        <file>image/talent/reddark.png</file>
+        <file>image/talent/thunder.png</file>
+        <file>image/talent/thunderbdark.png</file>
+        <file>image/talent/arrow.png</file>
+        <file>image/talent/arrowdark.png</file>
+        <file>image/talent/cure.png</file>
+        <file>image/talent/curedark.png</file>
+        <file>image/talent/firefree.png</file>
+        <file>image/talent/firefreedark.png</file>
+        <file>image/talent/frozen.png</file>
+        <file>image/talent/frozendark.png</file>
+        <file>image/talent/haildark.png</file>
+        <file>image/talent/shooter.png</file>
+        <file>image/talent/shooterdark.png</file>
+        <file>image/talent/smallBlue.png</file>
+        <file>image/talent/smallBook.png</file>
+        <file>image/talent/smallCure.png</file>
+        <file>image/talent/smallFirefree.png</file>
+        <file>image/talent/smallRed.png</file>
+    </qresource>
+    <qresource prefix="/enemy_pigsoldier">
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_9.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_10.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_11.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_12.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_13.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_14.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_dying_/pigsoldier_dying_15.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_9.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_10.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_11.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lattack_/pigsoldier_lattack_12.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lfight_/pigsoldier_lfight_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_lwalk_/pigsoldier_lwalk_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_9.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_10.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_11.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rattack_/pigsoldier_rattack_12.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rfight_/pigsoldier_rfight_8.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_1.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_2.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_3.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_4.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_5.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_6.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_7.png</file>
+        <file>image/enemy_pigsoldier/pigsoldier_rwalk_/pigsoldier_rwalk_8.png</file>
+    </qresource>
+    <qresource prefix="/enemy_woodmonster">
+        <file>image/enemy_woodmonster/dying_1.png</file>
+        <file>image/enemy_woodmonster/dying_2.png</file>
+        <file>image/enemy_woodmonster/dying_3.png</file>
+        <file>image/enemy_woodmonster/dying_4.png</file>
+        <file>image/enemy_woodmonster/dying_5.png</file>
+        <file>image/enemy_woodmonster/dying_6.png</file>
+        <file>image/enemy_woodmonster/lattack_1.png</file>
+        <file>image/enemy_woodmonster/lattack_2.png</file>
+        <file>image/enemy_woodmonster/lattack_3.png</file>
+        <file>image/enemy_woodmonster/lattack_4.png</file>
+        <file>image/enemy_woodmonster/lattack_5.png</file>
+        <file>image/enemy_woodmonster/lattack_6.png</file>
+        <file>image/enemy_woodmonster/lattack_7.png</file>
+        <file>image/enemy_woodmonster/lattack_8.png</file>
+        <file>image/enemy_woodmonster/lattack_9.png</file>
+        <file>image/enemy_woodmonster/lattack_10.png</file>
+        <file>image/enemy_woodmonster/lattack_11.png</file>
+        <file>image/enemy_woodmonster/lattack_12.png</file>
+        <file>image/enemy_woodmonster/lfight_1.png</file>
+        <file>image/enemy_woodmonster/lfight_2.png</file>
+        <file>image/enemy_woodmonster/lfight_3.png</file>
+        <file>image/enemy_woodmonster/lfight_4.png</file>
+        <file>image/enemy_woodmonster/lfight_5.png</file>
+        <file>image/enemy_woodmonster/lfight_6.png</file>
+        <file>image/enemy_woodmonster/lfight_7.png</file>
+        <file>image/enemy_woodmonster/lfight_8.png</file>
+        <file>image/enemy_woodmonster/lfight_9.png</file>
+        <file>image/enemy_woodmonster/lfight_10.png</file>
+        <file>image/enemy_woodmonster/lfight_11.png</file>
+        <file>image/enemy_woodmonster/lwalk_1.png</file>
+        <file>image/enemy_woodmonster/lwalk_2.png</file>
+        <file>image/enemy_woodmonster/lwalk_3.png</file>
+        <file>image/enemy_woodmonster/lwalk_4.png</file>
+        <file>image/enemy_woodmonster/lwalk_5.png</file>
+        <file>image/enemy_woodmonster/lwalk_6.png</file>
+        <file>image/enemy_woodmonster/lwalk_7.png</file>
+        <file>image/enemy_woodmonster/lwalk_8.png</file>
+        <file>image/enemy_woodmonster/rattack_1.png</file>
+        <file>image/enemy_woodmonster/rattack_2.png</file>
+        <file>image/enemy_woodmonster/rattack_3.png</file>
+        <file>image/enemy_woodmonster/rattack_4.png</file>
+        <file>image/enemy_woodmonster/rattack_5.png</file>
+        <file>image/enemy_woodmonster/rattack_6.png</file>
+        <file>image/enemy_woodmonster/rattack_7.png</file>
+        <file>image/enemy_woodmonster/rattack_8.png</file>
+        <file>image/enemy_woodmonster/rattack_9.png</file>
+        <file>image/enemy_woodmonster/rattack_10.png</file>
+        <file>image/enemy_woodmonster/rattack_11.png</file>
+        <file>image/enemy_woodmonster/rattack_12.png</file>
+        <file>image/enemy_woodmonster/rfight_1.png</file>
+        <file>image/enemy_woodmonster/rfight_2.png</file>
+        <file>image/enemy_woodmonster/rfight_3.png</file>
+        <file>image/enemy_woodmonster/rfight_4.png</file>
+        <file>image/enemy_woodmonster/rfight_5.png</file>
+        <file>image/enemy_woodmonster/rfight_6.png</file>
+        <file>image/enemy_woodmonster/rfight_7.png</file>
+        <file>image/enemy_woodmonster/rfight_8.png</file>
+        <file>image/enemy_woodmonster/rfight_9.png</file>
+        <file>image/enemy_woodmonster/rfight_10.png</file>
+        <file>image/enemy_woodmonster/rfight_11.png</file>
+        <file>image/enemy_woodmonster/rwalk_1.png</file>
+        <file>image/enemy_woodmonster/rwalk_2.png</file>
+        <file>image/enemy_woodmonster/rwalk_3.png</file>
+        <file>image/enemy_woodmonster/rwalk_4.png</file>
+        <file>image/enemy_woodmonster/rwalk_5.png</file>
+        <file>image/enemy_woodmonster/rwalk_6.png</file>
+        <file>image/enemy_woodmonster/rwalk_7.png</file>
+        <file>image/enemy_woodmonster/rwalk_8.png</file>
+    </qresource>
+    <qresource prefix="/enemy_spider">
+        <file>image/enemy_spider/dying_1.png</file>
+        <file>image/enemy_spider/dying_2.png</file>
+        <file>image/enemy_spider/dying_3.png</file>
+        <file>image/enemy_spider/dying_4.png</file>
+        <file>image/enemy_spider/dying_5.png</file>
+        <file>image/enemy_spider/dying_6.png</file>
+        <file>image/enemy_spider/dying_7.png</file>
+        <file>image/enemy_spider/dying_8.png</file>
+        <file>image/enemy_spider/dying_9.png</file>
+        <file>image/enemy_spider/dying_10.png</file>
+        <file>image/enemy_spider/dying_11.png</file>
+        <file>image/enemy_spider/dying_12.png</file>
+        <file>image/enemy_spider/dying_13.png</file>
+        <file>image/enemy_spider/dying_14.png</file>
+        <file>image/enemy_spider/lfight_1.png</file>
+        <file>image/enemy_spider/lfight_2.png</file>
+        <file>image/enemy_spider/lfight_3.png</file>
+        <file>image/enemy_spider/lfight_4.png</file>
+        <file>image/enemy_spider/lfight_5.png</file>
+        <file>image/enemy_spider/lfight_6.png</file>
+        <file>image/enemy_spider/lfight_7.png</file>
+        <file>image/enemy_spider/lfight_8.png</file>
+        <file>image/enemy_spider/lfight_9.png</file>
+        <file>image/enemy_spider/lfight_10.png</file>
+        <file>image/enemy_spider/lfight_11.png</file>
+        <file>image/enemy_spider/lfight_12.png</file>
+        <file>image/enemy_spider/lfight_13.png</file>
+        <file>image/enemy_spider/lfight_14.png</file>
+        <file>image/enemy_spider/lfight_15.png</file>
+        <file>image/enemy_spider/lfight_16.png</file>
+        <file>image/enemy_spider/lwalk_1.png</file>
+        <file>image/enemy_spider/lwalk_2.png</file>
+        <file>image/enemy_spider/lwalk_3.png</file>
+        <file>image/enemy_spider/lwalk_4.png</file>
+        <file>image/enemy_spider/lwalk_5.png</file>
+        <file>image/enemy_spider/lwalk_6.png</file>
+        <file>image/enemy_spider/lwalk_7.png</file>
+        <file>image/enemy_spider/lwalk_8.png</file>
+        <file>image/enemy_spider/lwalk_9.png</file>
+        <file>image/enemy_spider/lwalk_10.png</file>
+        <file>image/enemy_spider/lwalk_11.png</file>
+        <file>image/enemy_spider/lwalk_12.png</file>
+        <file>image/enemy_spider/lwalk_13.png</file>
+        <file>image/enemy_spider/lwalk_14.png</file>
+        <file>image/enemy_spider/lwalk_15.png</file>
+        <file>image/enemy_spider/lwalk_16.png</file>
+        <file>image/enemy_spider/lwalk_17.png</file>
+        <file>image/enemy_spider/lwalk_18.png</file>
+        <file>image/enemy_spider/lwalk_19.png</file>
+        <file>image/enemy_spider/lwalk_20.png</file>
+        <file>image/enemy_spider/rfight_1.png</file>
+        <file>image/enemy_spider/rfight_2.png</file>
+        <file>image/enemy_spider/rfight_3.png</file>
+        <file>image/enemy_spider/rfight_4.png</file>
+        <file>image/enemy_spider/rfight_5.png</file>
+        <file>image/enemy_spider/rfight_6.png</file>
+        <file>image/enemy_spider/rfight_7.png</file>
+        <file>image/enemy_spider/rfight_8.png</file>
+        <file>image/enemy_spider/rfight_9.png</file>
+        <file>image/enemy_spider/rfight_10.png</file>
+        <file>image/enemy_spider/rfight_11.png</file>
+        <file>image/enemy_spider/rfight_12.png</file>
+        <file>image/enemy_spider/rfight_13.png</file>
+        <file>image/enemy_spider/rfight_14.png</file>
+        <file>image/enemy_spider/rfight_15.png</file>
+        <file>image/enemy_spider/rfight_16.png</file>
+        <file>image/enemy_spider/rwalk_1.png</file>
+        <file>image/enemy_spider/rwalk_2.png</file>
+        <file>image/enemy_spider/rwalk_3.png</file>
+        <file>image/enemy_spider/rwalk_4.png</file>
+        <file>image/enemy_spider/rwalk_5.png</file>
+        <file>image/enemy_spider/rwalk_6.png</file>
+        <file>image/enemy_spider/rwalk_7.png</file>
+        <file>image/enemy_spider/rwalk_8.png</file>
+        <file>image/enemy_spider/rwalk_9.png</file>
+        <file>image/enemy_spider/rwalk_10.png</file>
+        <file>image/enemy_spider/rwalk_11.png</file>
+        <file>image/enemy_spider/rwalk_12.png</file>
+        <file>image/enemy_spider/rwalk_13.png</file>
+        <file>image/enemy_spider/rwalk_14.png</file>
+        <file>image/enemy_spider/rwalk_15.png</file>
+        <file>image/enemy_spider/rwalk_16.png</file>
+        <file>image/enemy_spider/rwalk_17.png</file>
+        <file>image/enemy_spider/rwalk_18.png</file>
+        <file>image/enemy_spider/rwalk_19.png</file>
+        <file>image/enemy_spider/rwalk_20.png</file>
+    </qresource>
+    <qresource prefix="/guard/shooter">
+        <file>image/shooter/death (1).png</file>
+        <file>image/shooter/death (2).png</file>
+        <file>image/shooter/death (3).png</file>
+        <file>image/shooter/death (4).png</file>
+        <file>image/shooter/death (5).png</file>
+        <file>image/shooter/death (6).png</file>
+        <file>image/shooter/death (7).png</file>
+        <file>image/shooter/death (8).png</file>
+        <file>image/shooter/l_attack (1).png</file>
+        <file>image/shooter/l_attack (2).png</file>
+        <file>image/shooter/l_attack (3).png</file>
+        <file>image/shooter/l_attack (4).png</file>
+        <file>image/shooter/l_attack (5).png</file>
+        <file>image/shooter/l_attack (6).png</file>
+        <file>image/shooter/l_attack (7).png</file>
+        <file>image/shooter/l_attack (8).png</file>
+        <file>image/shooter/l_attack (9).png</file>
+        <file>image/shooter/l_attack (10).png</file>
+        <file>image/shooter/l_attack (11).png</file>
+        <file>image/shooter/l_stand.png</file>
+        <file>image/shooter/r_attack (1).png</file>
+        <file>image/shooter/r_attack (2).png</file>
+        <file>image/shooter/r_attack (3).png</file>
+        <file>image/shooter/r_attack (4).png</file>
+        <file>image/shooter/r_attack (5).png</file>
+        <file>image/shooter/r_attack (6).png</file>
+        <file>image/shooter/r_attack (7).png</file>
+        <file>image/shooter/r_attack (8).png</file>
+        <file>image/shooter/r_attack (9).png</file>
+        <file>image/shooter/r_attack (10).png</file>
+        <file>image/shooter/r_attack (11).png</file>
+        <file>image/shooter/r_stand.png</file>
+    </qresource>
+    <qresource prefix="/enemy_greenmonster">
+        <file>image/enemy_greenmonster/death (1).png</file>
+        <file>image/enemy_greenmonster/death (2).png</file>
+        <file>image/enemy_greenmonster/death (3).png</file>
+        <file>image/enemy_greenmonster/death (4).png</file>
+        <file>image/enemy_greenmonster/death (5).png</file>
+        <file>image/enemy_greenmonster/death (6).png</file>
+        <file>image/enemy_greenmonster/death (7).png</file>
+        <file>image/enemy_greenmonster/l_attack (1).png</file>
+        <file>image/enemy_greenmonster/l_attack (2).png</file>
+        <file>image/enemy_greenmonster/l_attack (3).png</file>
+        <file>image/enemy_greenmonster/l_attack (4).png</file>
+        <file>image/enemy_greenmonster/l_attack (5).png</file>
+        <file>image/enemy_greenmonster/l_attack (6).png</file>
+        <file>image/enemy_greenmonster/l_attack (7).png</file>
+        <file>image/enemy_greenmonster/l_attack (8).png</file>
+        <file>image/enemy_greenmonster/l_attack (9).png</file>
+        <file>image/enemy_greenmonster/l_walk (1).png</file>
+        <file>image/enemy_greenmonster/l_walk (2).png</file>
+        <file>image/enemy_greenmonster/l_walk (3).png</file>
+        <file>image/enemy_greenmonster/l_walk (4).png</file>
+        <file>image/enemy_greenmonster/l_walk (5).png</file>
+        <file>image/enemy_greenmonster/l_walk (6).png</file>
+        <file>image/enemy_greenmonster/l_walk (7).png</file>
+        <file>image/enemy_greenmonster/l_walk (8).png</file>
+        <file>image/enemy_greenmonster/l_walk (9).png</file>
+        <file>image/enemy_greenmonster/l_walk (10).png</file>
+        <file>image/enemy_greenmonster/l_walk (11).png</file>
+        <file>image/enemy_greenmonster/l_walk (12).png</file>
+        <file>image/enemy_greenmonster/r_attack (1).png</file>
+        <file>image/enemy_greenmonster/r_attack (2).png</file>
+        <file>image/enemy_greenmonster/r_attack (3).png</file>
+        <file>image/enemy_greenmonster/r_attack (4).png</file>
+        <file>image/enemy_greenmonster/r_attack (5).png</file>
+        <file>image/enemy_greenmonster/r_attack (6).png</file>
+        <file>image/enemy_greenmonster/r_attack (7).png</file>
+        <file>image/enemy_greenmonster/r_attack (8).png</file>
+        <file>image/enemy_greenmonster/r_attack (9).png</file>
+    </qresource>
+    <qresource prefix="/enemy_cavalry_wolf">
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_1.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_2.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_3.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_4.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_5.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_6.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_7.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_rrun_/cavalry_wolf_rrun_8.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_1.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_2.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_3.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_4.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_5.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_6.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_7.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_dying_/cavalry_wolf_dying_8.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_1.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_2.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_3.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_4.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_5.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_6.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_7.png</file>
+        <file>image/enemy_cavalry_wolf/cavalry_wolf_lrun_/cavalry_wolf_lrun_8.png</file>
+    </qresource>
+    <qresource prefix="/enemy_firewizard">
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_1.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_2.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_3.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_4.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_5.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_6.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_7.png</file>
+        <file>image/enemy_firewizard/firewizard_dying_/firewizard_dying_8.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_1.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_2.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_3.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_4.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_5.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_6.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_7.png</file>
+        <file>image/enemy_firewizard/firewizard_lattack_/firewizard_lattack_8.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_1.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_2.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_3.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_4.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_5.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_6.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_7.png</file>
+        <file>image/enemy_firewizard/firewizard_lwalk_/firewizard_lwalk_8.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_1.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_2.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_3.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_4.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_5.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_6.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_7.png</file>
+        <file>image/enemy_firewizard/firewizard_rattack_/firewizard_rattack_8.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_1.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_2.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_3.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_4.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_5.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_6.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_7.png</file>
+        <file>image/enemy_firewizard/firewizard_rwalk_/firewizard_rwalk_8.png</file>
+    </qresource>
+    <qresource prefix="/enemy_firecow">
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_1.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_2.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_3.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_4.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_5.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_6.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_7.png</file>
+        <file>image/enemy_firecow/firecow_dying_/firecow_dying_8.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_1.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_2.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_3.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_4.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_5.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_6.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_7.png</file>
+        <file>image/enemy_firecow/firecow_lattack_/firecow_lattack_8.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_1.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_2.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_3.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_4.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_5.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_6.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_7.png</file>
+        <file>image/enemy_firecow/firecow_lwalk_/firecow_lwalk_8.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_1.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_2.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_3.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_4.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_5.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_6.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_7.png</file>
+        <file>image/enemy_firecow/firecow_rattack_/firecow_rattack_8.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_1.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_2.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_3.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_4.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_5.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_6.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_7.png</file>
+        <file>image/enemy_firecow/firecow_rwalk_/firecow_rwalk_8.png</file>
+    </qresource>
+    <qresource prefix="/enemy_firemonster">
+        <file>image/enemy_firemonster/death (1).png</file>
+        <file>image/enemy_firemonster/death (2).png</file>
+        <file>image/enemy_firemonster/death (3).png</file>
+        <file>image/enemy_firemonster/death (4).png</file>
+        <file>image/enemy_firemonster/death (5).png</file>
+        <file>image/enemy_firemonster/death (6).png</file>
+        <file>image/enemy_firemonster/death (7).png</file>
+        <file>image/enemy_firemonster/death (8).png</file>
+        <file>image/enemy_firemonster/death (9).png</file>
+        <file>image/enemy_firemonster/death (10).png</file>
+        <file>image/enemy_firemonster/death (11).png</file>
+        <file>image/enemy_firemonster/death (12).png</file>
+        <file>image/enemy_firemonster/death (13).png</file>
+        <file>image/enemy_firemonster/death (14).png</file>
+        <file>image/enemy_firemonster/death (15).png</file>
+        <file>image/enemy_firemonster/death (16).png</file>
+        <file>image/enemy_firemonster/death (17).png</file>
+        <file>image/enemy_firemonster/death (18).png</file>
+        <file>image/enemy_firemonster/death (19).png</file>
+        <file>image/enemy_firemonster/death (20).png</file>
+        <file>image/enemy_firemonster/death (21).png</file>
+        <file>image/enemy_firemonster/l_attack (1).png</file>
+        <file>image/enemy_firemonster/l_attack (2).png</file>
+        <file>image/enemy_firemonster/l_attack (3).png</file>
+        <file>image/enemy_firemonster/l_attack (4).png</file>
+        <file>image/enemy_firemonster/l_attack5_1.png</file>
+        <file>image/enemy_firemonster/l_attack5_2.png</file>
+        <file>image/enemy_firemonster/l_attack5_3.png</file>
+        <file>image/enemy_firemonster/l_attack6_1.png</file>
+        <file>image/enemy_firemonster/l_attack6_2.png</file>
+        <file>image/enemy_firemonster/l_attack6_3.png</file>
+        <file>image/enemy_firemonster/l_walk (1).png</file>
+        <file>image/enemy_firemonster/l_walk (2).png</file>
+        <file>image/enemy_firemonster/l_walk (3).png</file>
+        <file>image/enemy_firemonster/l_walk (4).png</file>
+        <file>image/enemy_firemonster/l_walk (5).png</file>
+        <file>image/enemy_firemonster/l_walk (6).png</file>
+        <file>image/enemy_firemonster/l_walk (7).png</file>
+        <file>image/enemy_firemonster/l_walk (8).png</file>
+        <file>image/enemy_firemonster/l_walk (9).png</file>
+        <file>image/enemy_firemonster/l_walk (10).png</file>
+        <file>image/enemy_firemonster/l_walk (11).png</file>
+        <file>image/enemy_firemonster/l_walk (12).png</file>
+        <file>image/enemy_firemonster/r_attack (1).png</file>
+        <file>image/enemy_firemonster/r_attack (2).png</file>
+        <file>image/enemy_firemonster/r_attack (3).png</file>
+        <file>image/enemy_firemonster/r_attack (4).png</file>
+        <file>image/enemy_firemonster/r_attack (5).png</file>
+        <file>image/enemy_firemonster/r_attack (6).png</file>
+        <file>image/enemy_firemonster/r_attack5_1.png</file>
+        <file>image/enemy_firemonster/r_attack5_2.png</file>
+        <file>image/enemy_firemonster/r_attack5_3.png</file>
+        <file>image/enemy_firemonster/r_attack6_1.png</file>
+        <file>image/enemy_firemonster/r_attack6_2.png</file>
+        <file>image/enemy_firemonster/r_attack6_3.png</file>
+    </qresource>
+</RCC>
