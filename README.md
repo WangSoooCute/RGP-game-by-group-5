@@ -1,5 +1,15 @@
 # RGPgame
 
+本项目是大一下学期C++程序设计课程的大作业，
+
+**Project_FinalProject**文件夹里是整个项目的最终代码版本（包括所有的所需图片都在image.zip这个文件里），项目代码需在**Qt Creator**中运行。
+
+在[PROTECT HER KINGDOM最终实验报告.pptx](https://github.com/WangSoooCute/RGP-game-by-group-5/blob/master/实验报告和任务分配等/PROTECT%20HER%20KINGDOM最终实验报告.pptx)文件中，有本组成员的详细分工：
+
+![任务分配](https://github.com/WangSoooCute/RGP-game-by-group-5/blob/master/实验报告和任务分配等/任务分配.png?raw=true)
+
+以下为游戏剧情描述：
+
 ## 剧情
 
 主人公是一位跟着大魔法师学习的公主，
@@ -44,13 +54,3 @@
 
 **援军来到，大将军为你的智勇双全，忠孝爱国折服，你们开开心心地在一起了。**<br />
 <br />
-
-## 文件说明
-
-**Project_FinalProject**文件夹里是整个项目的最终代码版本（包括所有的所需图片都在image.zip这个文件里）。
-
-项目代码需在**Qt Creator**中运行。
-
-在[PROTECT HER KINGDOM最终实验报告.pptx](https://github.com/WangSoooCute/RGP-game-by-group-5/blob/master/实验报告和任务分配等/PROTECT%20HER%20KINGDOM最终实验报告.pptx)文件中，有本组成员的详细分工：
-
-![任务分配](https://github.com/WangSoooCute/RGP-game-by-group-5/blob/master/实验报告和任务分配等/任务分配.png?raw=true)
